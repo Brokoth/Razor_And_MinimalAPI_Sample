@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\minimal_api_plus_razor.props" />
+</Project>

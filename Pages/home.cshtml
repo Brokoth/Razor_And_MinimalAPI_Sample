@@ -1,0 +1,12 @@
+﻿@page
+@model minimal_api_plus_razor.Pages.homeModel
+@{
+}
+<h1>Home</h1>
+<div>
+    <form asp-page-handler="CallAPI" method="post">
+        <button class="btn btn-default">Call API</button>
+    </form>
+    <br />
+</div>
+<hi>@ViewData["resp"]</hi>
